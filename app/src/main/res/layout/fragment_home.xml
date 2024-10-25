@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.SettingsFragment">
+    tools:context=".fragments.HomeFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title="Settings"
+        app:title="Home"
         app:titleTextColor="@color/white"
         android:background="@color/main_style_color"
         android:minHeight="?attr/actionBarSize"
@@ -37,9 +37,12 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/settings"/>
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/home"
+        android:layout_gravity="center" />
 
 </LinearLayout>

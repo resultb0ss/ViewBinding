@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.SettingsFragment">
+    tools:context=".fragments.WidgetsFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title="Settings"
+        app:title="Widgets"
         app:titleTextColor="@color/white"
         android:background="@color/main_style_color"
         android:minHeight="?attr/actionBarSize"
@@ -40,6 +40,6 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/settings"/>
+        android:src="@drawable/img_1"/>
 
 </LinearLayout>

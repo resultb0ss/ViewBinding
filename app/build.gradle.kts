@@ -49,4 +49,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //Picasso
+    implementation ("com.squareup.picasso:picasso:2.8")
+
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+
+
 }

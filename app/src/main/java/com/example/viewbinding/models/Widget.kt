@@ -5,6 +5,6 @@ import androidx.fragment.app.Fragment
 class Widget (
     val name: String,
     val image: Int,
-    val fragment: Fragment
+    val fragment: Fragment?
 ) {
 }

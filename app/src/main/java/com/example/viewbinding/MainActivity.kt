@@ -1,11 +1,9 @@
 package com.example.viewbinding
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.viewbinding.databinding.ActivityMainBinding
+import com.example.viewbinding.fragments.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
